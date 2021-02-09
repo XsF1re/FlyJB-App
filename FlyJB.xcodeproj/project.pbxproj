@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D566332E25C7E0B60082441B /* IssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D566332D25C7E0B60082441B /* IssueViewController.m */; };
 		D566334225C84E710082441B /* HomeUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D566334125C84E710082441B /* HomeUITabBarController.m */; };
 		D568803225C67EF000B6FE5B /* CreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D568803125C67EF000B6FE5B /* CreditTableViewController.m */; };
 		D568803D25C686BA00B6FE5B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D568803F25C686BA00B6FE5B /* Localizable.strings */; };
@@ -26,8 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D566332C25C7E0B60082441B /* IssueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IssueViewController.h; sourceTree = "<group>"; };
-		D566332D25C7E0B60082441B /* IssueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IssueViewController.m; sourceTree = "<group>"; };
 		D566334025C84E710082441B /* HomeUITabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeUITabBarController.h; sourceTree = "<group>"; };
 		D566334125C84E710082441B /* HomeUITabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeUITabBarController.m; sourceTree = "<group>"; };
 		D568803025C67EF000B6FE5B /* CreditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditTableViewController.h; sourceTree = "<group>"; };
@@ -53,6 +50,7 @@
 		D590466625BF2E5F009393F3 /* AppListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppListTableViewController.m; sourceTree = "<group>"; };
 		D590466925BF4507009393F3 /* SettingsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
 		D590466A25BF4507009393F3 /* SettingsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		D5D5DA1D25D211B600A643E2 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5F352DC25C09A4C00A2E1A2 /* InfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
 		D5F352DD25C09A4C00A2E1A2 /* InfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,8 +100,6 @@
 				D590464C25BED53D009393F3 /* Main.storyboard */,
 				D566334025C84E710082441B /* HomeUITabBarController.h */,
 				D566334125C84E710082441B /* HomeUITabBarController.m */,
-				D566332C25C7E0B60082441B /* IssueViewController.h */,
-				D566332D25C7E0B60082441B /* IssueViewController.m */,
 				D568803025C67EF000B6FE5B /* CreditTableViewController.h */,
 				D568803125C67EF000B6FE5B /* CreditTableViewController.m */,
 				D568804D25C6EC9400B6FE5B /* Banner.png */,
@@ -167,6 +163,7 @@
 				en,
 				Base,
 				ko,
+				ar,
 			);
 			mainGroup = D590463725BED53D009393F3;
 			productRefGroup = D590464125BED53D009393F3 /* Products */;
@@ -199,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D568803225C67EF000B6FE5B /* CreditTableViewController.m in Sources */,
-				D566332E25C7E0B60082441B /* IssueViewController.m in Sources */,
 				D590464B25BED53D009393F3 /* ViewController.m in Sources */,
 				D590464525BED53D009393F3 /* AppDelegate.m in Sources */,
 				D5F352DE25C09A4C00A2E1A2 /* InfoTableViewController.m in Sources */,
@@ -220,6 +216,7 @@
 			children = (
 				D568803E25C686BA00B6FE5B /* en */,
 				D568804025C686FE00B6FE5B /* ko */,
+				D5D5DA1D25D211B600A643E2 /* ar */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -247,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -307,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -361,6 +360,7 @@
 		D590465A25BED53F009393F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -381,6 +381,7 @@
 		D590465B25BED53F009393F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";

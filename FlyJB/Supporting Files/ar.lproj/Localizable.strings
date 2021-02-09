@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  FlyJB
+
+  Created by xsf1re on 2021/01/31.
+  
+*/
+
+"Activate FlyJB"="قم بتنشيط FlyJB";
+"All of installed app will be display here.\nPlease send log if you had some problem."="سيتم عرض جميع التطبيقات المثبتة هنا\nالرجاء إرسال السجل إذا كان لديك بعض المشاكل";
+"All settings has been reset."="تم إعادة ضبط جميع الإعدادات.";
+"All tweaks will be disabled including FlyJB."="يقوم بتعطيل جميع الادوات بما في ذلك FlyJB";
+"AppList Log"="سجل قائمة التطبيقات";
+"Are you going to reset all the settings?"="هل انت متأكد من إعادة ضبط جميع الإعدادات؟";
+"Bypass List"="قائمة التجاوز";
+"Cancel"="إلغاء";
+"Checking Update..."="جاري التحقق من التحديث ...";
+"Credit"="شكر وتقدير";
+"Design"="التصميم";
+"Development"="المطور";
+"Device"="جهاز";
+"Did you jailbreak your iPhone?\n\nThen FlyJB Tweak is a MUST!\n\nFeel free to use apps that detect jailbreak!\n\n#FlyJB By @XsF1re"="هل قمت بعمل جيلبريك لجهاز iPhone الخاص بك؟\n\nإذن فلا بد من اداه FlyJB Tweak!\n\nلتعطيل كشف الجيلبريك للتطبيقات\n\n#FlyJB بواسطة @ XsF1re\n\nتعريب ‏@su8782";
+"Disable List"="القائمة المعطلة";
+"Enable Dobby"="تمكين Dobby";
+"Failed to get patch data from server. Please try again."="فشل الحصول على بيانات التصحيح من الخادم حاول مرة اخرى";
+"Failed to request feedback"="فشل في ارسال التعليقات";
+"Failed to reset all settings."="فشل في إعادة تعيين كافة الإعدادات.";
+"Failed to set permission. Is your device jailbroken?"="فشل تعيين الاذونات ، هل جهازك عليه جيليريك؟";
+"FlyJB X Feedback Request"="طلب تعليقات FlyJB X";
+"Get patch data from server."="احصل على بيانات التصحيح من الخادم.";
+"Have issue on app list?"="لديك مشكلة في قائمة التطبيقات؟";
+"I think it's you when the wind blows."="شكرا متجر System32 Store على التعريب";
+"If crash happen, explain in detail what happens in some cases or send a crash log to help developers solve it."="في حالة حدوث عطل ، اشرح بالتفصيل ما يحدث في بعض الحالات أو أرسل سجل التعطيل لمساعدة المطورين في حلها.";
+"If you don't enable Dobby, bypass functionality may not work in some apps, but it can be resolved by memory patch."="إذا لم تقم بتمكين Dobby ، فقد لا تعمل وظيفة التجاوز في بعض التطبيقات ، ولكن يمكن حلها عن طريق تصحيح الذاكرة.";
+"Info"="حول";
+"Install Twitter"="قم بتثبيت Twitter";
+"Last Update Date"="اخر تاريخ تحديث";
+"List"="قائمة";
+"Modify environment variables to block all tweak loads except FlyJB. Do not activate unless app crashes or there is a special problem."="يقوم بتعطيل جميع الادوات باستثناء FlyJB ، لا تنشط إلا إذا تعطل التطبيق أو كانت هناك مشكلة خاصة";
+"OK"="موافق";
+"Optimize List"="القائمة المحسنة";
+"Patch data is already up to date."="بيانات التصحيح محدثة بالفعل";
+"Recommend FlyJB"="توصية الاصدقاء بـ FlyJB";
+"Reset"="إعادة تعيين";
+"Reset Settings"="اعادة الضبط";
+"Search Apps"="البحث عن التطبيقات";
+"Selected Apps can NOT access the system.\nOther Apps can access the system."="لا يمكن للتطبيقات المحددة كشف الجيلبريك";
+"Send Feedback"="ارسل رأيك";
+"Setting Permission Failed"="فشل تعيين الاذونات";
+"Settings"="الإعدادات";
+"Share"="مشاركة";
+"Some apps require a memory patch, so check the app version."="تتطلب بعض التطبيقات تصحيحًا للذاكرة ، لذا تحقق من إصدار التطبيق.";
+"Successfully Updated"="تم التحديث بنجاح";
+"The current version does not support updating memory patch. Please update tweak to the latest version."="الإصدار الحالي لا يدعم تحديث تصحيح الذاكرة. يرجى تحديث الاداه إلى أحدث إصدار.";
+"The patch data was successfully received from the server."="تم استلام بيانات التصحيح من الخادم بنجاح.";
+"Update"="تحديث";
+"Update Failed"="فشل التحديث";
+"Update Memory Patch"="تحديث تصحيح الذاكرة";
+"Version"="الإصدار";
+"View Patch Contents"="عرض محتويات التصحيح";
+"View Source Code"="عرض كود المصدر";
+"You must install Twitter and log in to recommend FlyJB."="يجب عليك تثبيت Twitter وتسجيل الدخول للتوصية بـ FlyJB";
+"Your registered email could not be found. Please add at least one e-mail in the mail app."="لا يمكن العثور على بريدك الإلكتروني المسجل. يرجى إضافة بريد إلكتروني واحد على الأقل في تطبيق البريد.";
+"Translation" = "ترجمة";

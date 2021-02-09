@@ -12,7 +12,6 @@
     NSArray *version;
     NSArray *versionDetails;
     NSArray *info;
-    NSArray *issue;
     NSArray *credit;
     NSArray *easteregg;
 }
@@ -27,9 +26,8 @@
     [self setTitle:NSLocalizedString(@"Info", nil)];
 
     version = @[NSLocalizedString(@"Version", nil)];
-    versionDetails = @[@"1.1.5"];
+    versionDetails = @[@"1.1.6"];
     info = @[NSLocalizedString(@"View Source Code", nil), NSLocalizedString(@"Send Feedback", nil), NSLocalizedString(@"Recommend FlyJB", nil)];
-    issue = @[NSLocalizedString(@"Have issue on app list?", nil)];
     credit = @[NSLocalizedString(@"Credit", nil)];
     easteregg = @[NSLocalizedString(@"I think it's you when the wind blows.", nil)];
     
@@ -43,7 +41,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 6;
+    return 5;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -59,8 +57,6 @@
     else if(section == 3)
         return info.count;
     else if(section == 4)
-        return issue.count;
-    else if(section == 5)
         return easteregg.count;
     
     return count;
@@ -85,10 +81,6 @@
         cell.textLabel.text = info[indexPath.row];
         cell.textLabel.textColor = [UIColor systemBlueColor];
     } else if(indexPath.section == 4) {
-        cell = [tableView dequeueReusableCellWithIdentifier:@"issueCell" forIndexPath:indexPath];
-        cell.textLabel.text = issue[indexPath.row];
-        cell.textLabel.textColor = [UIColor systemBlueColor];
-    } else if(indexPath.section == 5) {
         cell = [tableView dequeueReusableCellWithIdentifier:@"eastereggCell" forIndexPath:indexPath];
         cell.textLabel.text = easteregg[indexPath.row];
         cell.separatorInset = UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, CGFLOAT_MAX);

@@ -61,3 +61,4 @@
 "All of installed app will be display here.\nPlease send log if you had some problem." = "설치된 모든 앱들이 여기에 표시됩니다.\n문제가 발생한다면 로그를 개발자에게 보내주세요.";
 "Setting Permission Failed" = "권한 설정 실패";
 "Failed to set permission. Is your device jailbroken?" = "권한을 설정하는데 실패하였습니다. 탈옥 상태가 맞으신가요?";
+"Translation" = "번역";

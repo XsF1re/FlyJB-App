@@ -24,9 +24,10 @@
     self.tableView.tableFooterView = [[UIView alloc] init];
     
     //    sections = @[@"개발", @"디자인", @"번역"];
-    sections = @[NSLocalizedString(@"Development", nil), NSLocalizedString(@"Design", nil)];
+    sections = @[NSLocalizedString(@"Development", nil), NSLocalizedString(@"Design", nil), NSLocalizedString(@"Translation", nil)];
     developer = @[@"@XsF1re", @"@jmpews"];
     designer = @[@"emulzone"];
+    translator = @[@"@su8782"];
     //    translator = @[@"Unknown"];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -53,8 +54,8 @@
         return developer.count;
     else if(section == 1)
         return designer.count;
-    //    else if(section == 2)
-    //        return translator.count;
+    else if(section == 2)
+        return translator.count;
     
     return count;
 }
@@ -71,10 +72,10 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"designerCell" forIndexPath:indexPath];
         cell.textLabel.text = designer[indexPath.row];
     }
-    //    else if(indexPath.section == 2) {
-    //        cell = [tableView dequeueReusableCellWithIdentifier:@"translatorCell" forIndexPath:indexPath];
-    //        cell.textLabel.text = translator[indexPath.row];
-    //    }
+    else if(indexPath.section == 2) {
+        cell = [tableView dequeueReusableCellWithIdentifier:@"translatorCell" forIndexPath:indexPath];
+        cell.textLabel.text = translator[indexPath.row];
+    }
     cell.textLabel.textColor = [UIColor systemBlueColor];
     return cell;
 }
@@ -91,6 +92,11 @@
         }
     }
     
+    if(indexPath.section == 2) {
+        if([translator[indexPath.row] isEqualToString:@"@su8782"]) {
+            [self openWebTwitter:@"su8782"];
+        }
+    }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
