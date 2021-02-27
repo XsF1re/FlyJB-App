@@ -25,7 +25,7 @@
     
     //    sections = @[@"개발", @"디자인", @"번역"];
     sections = @[NSLocalizedString(@"Development", nil), NSLocalizedString(@"Design", nil), NSLocalizedString(@"Translation", nil)];
-    developer = @[@"@XsF1re", @"@jmpews", @"@opa334dev"];
+    developer = @[@"@XsF1re", @"@BawAppie", @"@jmpews", @"@opa334dev"];
     designer = @[@"emulzone"];
     translator = @[@"@su8782"];
     //    translator = @[@"Unknown"];
@@ -85,6 +85,10 @@
     if(indexPath.section == 0) {
         if([developer[indexPath.row] isEqualToString:@"@XsF1re"]) {
             [self openWebTwitter:@"XsF1re"];
+        }
+        
+        if([developer[indexPath.row] isEqualToString:@"@BawAppie"]) {
+            [self openWebTwitter:@"BawAppie"];
         }
         
         if([developer[indexPath.row] isEqualToString:@"@jmpews"]) {
