@@ -202,7 +202,7 @@ static SettingsTableViewController* sharedInstance = nil;
         }
         
         if([updateMemPatch[indexPath.row] isEqualToString:NSLocalizedString(@"View Patch Contents", nil)]) {
-            NSString *url = @"http://xsf1re.dothome.co.kr/flyjb/update.html";
+            NSString *url = @"http://repo.xsf1re.kr/flyjb/update.html";
             UIApplication *app = [UIApplication sharedApplication];
             [app openURL:[NSURL URLWithString:url]];
         }
@@ -285,7 +285,7 @@ static SettingsTableViewController* sharedInstance = nil;
     [alert.view addSubview:activity];
     [self presentViewController:alert animated:YES completion:nil];
     
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://xsf1re.dothome.co.kr/flyjb/last_roleset.php"]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://repo.xsf1re.kr/flyjb/last_roleset.php"]];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:nil delegateQueue:[NSOperationQueue mainQueue]];
     NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error){
         NSString *returnData = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
@@ -345,7 +345,7 @@ static SettingsTableViewController* sharedInstance = nil;
                 }
                 
                 else if(![returnData isEqualToString:version]) {
-                    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://xsf1re.dothome.co.kr/flyjb/%@.php", version_web]]];
+                    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://repo.xsf1re.kr/flyjb/%@.php", version_web]]];
                     NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error){
                         NSInteger statusCode = [(NSHTTPURLResponse *)response statusCode];
                         if (error || statusCode != 200) {
