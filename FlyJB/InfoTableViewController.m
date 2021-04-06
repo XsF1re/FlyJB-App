@@ -26,7 +26,7 @@
     [self setTitle:NSLocalizedString(@"Info", nil)];
 
     version = @[NSLocalizedString(@"Version", nil)];
-    versionDetails = @[@"1.2.0"];
+    versionDetails = @[@"1.2.2"];
     info = @[NSLocalizedString(@"View Source Code", nil), NSLocalizedString(@"Send Feedback", nil), NSLocalizedString(@"Recommend FlyJB", nil)];
     credit = @[NSLocalizedString(@"Credit", nil)];
     easteregg = @[NSLocalizedString(@"I think it's you when the wind blows.", nil)];
